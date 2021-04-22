@@ -52,5 +52,5 @@ for item in search_response['item']:
     print(item['snippet']['title'])
 ```
 
-### 환율 데이터 수집 및 활용
+
 
