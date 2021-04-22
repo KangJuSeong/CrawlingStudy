@@ -1,2 +1,2 @@
 # CrawlingStudy
-Daily CrawlingStudy
+CrawlingStudy
