@@ -128,5 +128,5 @@ class NewsSpider(scrapy.Spider):
 8. Spider Middleware
     - Spider에 입력되는 Response와 Spider에서 출력되는 Item/Request 대해 처리를 확장   
     
-![](D:\CrawlingStudy\img\scrapy_archiecture.png)
+![](https://github.com/KangJuSeong/CrawlingStudy/blob/main/img/scrapy_archiecture.png)
 
