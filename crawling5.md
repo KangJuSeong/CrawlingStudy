@@ -138,6 +138,6 @@ class NewsSpider(scrapy.Spider):
 >   `response.css('title::text').extract_first()` -> `Scrapy`
 > - class='test'의 a 요소가 가진 href 속성 추출   
 >   `html.cssselect('a.test').get('href)` -> `lxml`  
->   `soup.select('a.test')['href']` -> `Beautiful Soup` 
+>   `soup.select('a.test')['href']` -> `Beautiful Soup`      
 >   `response.css('a.test::attr("href")').extract_first()` -> `Scrapy`
 
