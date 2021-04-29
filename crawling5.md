@@ -127,8 +127,7 @@ class NewsSpider(scrapy.Spider):
     - Downloader 처리를 확장
 8. Spider Middleware
     - Spider에 입력되는 Response와 Spider에서 출력되는 Item/Request 대해 처리를 확장   
- 
-
+    
 ![](https://github.com/KangJuSeong/CrawlingStudy/blob/main/img/scrapy_archiecture.png)
 
 > ### lxml, Beautiful Soup, Scrapy의 차이점
@@ -138,6 +137,6 @@ class NewsSpider(scrapy.Spider):
 >   `response.css('title::text').extract_first()` -> `Scrapy`
 > - class='test'의 a 요소가 가진 href 속성 추출   
 >   `html.cssselect('a.test').get('href)` -> `lxml`  
->   `soup.select('a.test')['href']` -> `Beautiful Soup`
+>   `soup.select('a.test')['href']` -> `Beautiful Soup`     
 >   `response.css('a.test::attr("href")').extract_first()` -> `Scrapy`
 
