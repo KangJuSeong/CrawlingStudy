@@ -127,8 +127,9 @@ class NewsSpider(scrapy.Spider):
     - Downloader 처리를 확장
 8. Spider Middleware
     - Spider에 입력되는 Response와 Spider에서 출력되는 Item/Request 대해 처리를 확장   
-    
-![](D:\CrawlingStudy\img\scrapy_archiecture.png)
+ 
+
+![](https://github.com/KangJuSeong/CrawlingStudy/blob/main/img/scrapy_archiecture.png)
 
 > ### lxml, Beautiful Soup, Scrapy의 차이점
 > - CSS 선택자로 title 요소의 텍스트 추출하기   
